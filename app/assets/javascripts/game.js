@@ -15,7 +15,6 @@ $(document).ready(function() {
 
   $box.click(function() {
     card = $(this);
-    console.log('clicked')
     card.find('div').removeClass('hidden');
     if(!firstCard) {
       firstCard = card;
